@@ -1,0 +1,394 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
+	background: url(../images/bg.jpg) center top no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.section-1{
+	width: 100%;
+	padding: 100px 0px 55px 0px;
+}
+.section-1 .section-1-caption a{
+	font-size: 60px;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 60px;
+}
+.section-1 .section-1-caption h4{
+	font-size: 18px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.all-section .container{
+	width: 100%;
+	box-shadow: 2px 2px 26px 0px #000;
+}
+.all-section .col-md-12{
+	padding: 0px;
+	margin: 0px;
+}
+.all-section .first-all img{
+	width: 100%;
+}
+.all-section .second-all{
+	width: 100%;
+	padding: 60px 0px;
+	background: #fff;
+}
+.all-section .second-all h1{
+	font-size: 25px;
+	font-weight: 800;
+	line-height: 35px;
+	color: #000;
+}
+.all-section .second-all .bar{
+	height: 1px;
+	width: 120px;
+	background: #bbb;
+	margin: 20px auto;
+}
+.all-section .second-all p{
+	font-size: 13px;
+    font-weight: 400;   
+    letter-spacing: 3px;
+	color: #bbb;
+}
+.all-section .third-all{
+	width: 100%;
+	padding: 80px;
+	background: #F8F7F5;
+}
+.all-section .third-all p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #7C7C7B;
+}
+.all-section .canvas{
+	width: 100%;
+	padding: 70px;
+	background: #1E1F23;
+}
+.all-section .canvas .canvas-caption{
+	background: #000;
+	padding: 30px 0px;
+	margin-left: -2px;
+}
+.all-section .canvas .canvas-caption h1{
+	font-size: 25px;
+	font-weight: 800;
+	line-height: 35px;
+	color: #fff;
+}
+.all-section .canvas .canvas-caption .bar{
+	height: 1px;
+	width: 120px;
+	background: rgba(255, 255, 255, 0.25);
+	margin: 20px auto;
+}
+.all-section .canvas .canvas-caption p{
+	font-size: 13px;
+    font-weight: 400;   
+    letter-spacing: 3px;
+	color: rgba(255, 255, 255, 0.25);
+}
+.all-section .canvas .canvas-img img {
+    width: 50.1%;
+    display: inline-block;
+    margin: 0px -2px;
+}
+.all-section .viverra img{
+	width: 100%;
+}
+.all-section .viverra-col{
+	padding: 0px;
+	margin: 0px;
+}
+.all-section .viverra-text{
+	width: 100%;
+	padding: 118px 60px;
+	background: #F6F5F4;
+}
+.all-section .viverra-text h2{
+	font-size: 22px;
+	font-weight: 800;
+	color: #1e1f23;
+	margin-bottom: 20px;
+}
+.all-section .viverra-text p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #7C7C7B;
+}
+.all-section .viverra2-text{
+	background: #1E1F23;
+}
+.all-section .viverra2-h2{
+	color: #fff !important;
+}
+.all-section .viverra2-p{
+	color: #4D4E51;
+}
+
+.last-section{
+	width: 100%;
+	padding: 100px 0px 100px 0px;
+}
+.last-section .social-link ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 10px;
+}
+
+.last-section .social-link ul li a i{
+	font-size: 30px;
+	color: #CFCFC8;
+	transition: .5s;
+}
+.last-section .social-link ul li a i:hover{
+	color: #fff;
+}
+.last-section .copy p{
+	font-size: 14px;
+	color: #bbb;
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  	.section-1 {
+	    padding: 70px 0px 55px 0px;
+	}
+	.all-section .viverra-text {
+	    padding: 71px 60px;
+	}
+	.last-section {
+	    width: 100%;
+	    padding: 100px 0px 70px 0px;
+	}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  	.section-1 {
+	    padding: 70px 0px 55px 0px;
+	}
+	.all-section .viverra-text {
+	    padding: 71px 60px;
+	}
+	.last-section {
+	    width: 100%;
+	    padding: 100px 0px 70px 0px;
+	}
+	.all-section .canvas .canvas-img img {
+	    width: 100.1%;
+	}
+	.all-section .viverra-col {
+	    padding: 0px;
+	    margin: 0px;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.all-section .viverra-text {
+	    text-align: center;
+	}
+	.all-section .viverra2-text {
+	    text-align: center !important;
+	}
+	.all-section .viverra-last{
+		border-radius: 0px 0px 5px 5px;
+	}
+		.last-section {
+	    margin-top: 65px;
+	    padding: 40px 0px 70px 0px;
+	    background: #1E1F23;
+	    box-shadow: 0px 0px 22px 19px #1E1F23;
+	}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  	
+  	body {
+	    background-size: 100%;
+	}
+  	.section-1 {
+	    padding: 70px 0px 55px 0px;
+	}
+	.section-1 .section-1-caption a {
+	    font-size: 45px;
+	    line-height: 55px;
+	}
+	.section-1 .section-1-caption h4 {
+	    font-size: 16px;
+	}
+	.all-section{
+		background: #1E1F23;
+	    box-shadow: 1px 1px 22px 19px #1E1F23;
+	}
+	.all-section .second-all h1 {
+	    font-size: 22px;
+	    line-height: 32px;
+	}
+	.all-section .second-all .bar {
+	    width: 175px;
+	}
+	.all-section .second-all {
+	    padding: 40px 0px;
+	}
+	.all-section .third-all {
+	    padding: 40px;
+	}
+	.all-section .container {
+	    width: 90%;
+	    padding: 0px 15px;
+	    margin: 0px auto;
+	    box-shadow: 2px 2px 26px 0px #000;
+	}
+	.all-section .viverra-text {
+	    padding: 71px 60px;
+	}
+	.last-section {
+	    margin-top: 0px;
+	    padding: 50px 0px 70px 0px;
+	    background: #1E1F23;
+	}
+	.all-section .canvas {
+	    padding: 35px;
+	}
+	.all-section .canvas .canvas-caption p {
+	    padding: 0px 20px;
+	    line-height: 23px;
+	}
+	.all-section .canvas .canvas-img img {
+	    width: 100.1%;
+	}
+	.all-section .viverra-col {
+	    padding: 0px;
+	    margin: 0px;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.all-section .viverra-text {
+	    text-align: center;
+	}
+	.all-section .viverra2-text {
+	    text-align: center !important;
+	}
+	.all-section .viverra-last{
+		border-radius: 0px 0px 5px 5px;
+	}
+
+}
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  	body {
+	    background-size: 110%;
+	}
+  	.section-1 {
+	    padding: 70px 0px 20px 0px;
+	}
+	.section-1 .section-1-caption a {
+	    font-size: 45px;
+	    line-height: 55px;
+	}
+	.section-1 .section-1-caption h4 {
+	    font-size: 16px;
+	}
+	.all-section{
+		background: #1E1F23;
+	    box-shadow: 1px 1px 22px 19px #1E1F23;
+	}
+	.all-section .second-all h1 {
+	    font-size: 25px;
+	    line-height: 34px;
+	    padding: 0px 24px;
+	    font-weight: 600;
+	}
+	.all-section .second-all p {
+	    line-height: 23px;
+	    padding: 0px 24px;
+	}
+	.all-section .second-all {
+	    padding: 40px 0px;
+	}
+	.all-section .third-all {
+	    padding: 30px;
+	}
+	.all-section .container {
+	    width: 90%;
+	    padding: 0px 15px;
+	    margin: 0px auto;
+	    box-shadow: 2px 2px 26px 0px #000;
+	}
+	.all-section .viverra-text {
+	    text-align: center;
+	    padding: 35px 25px;
+	}
+	.last-section {
+	    margin-top: 0px;
+	    padding: 50px 0px 70px 0px;
+	    background: #1E1F23;
+	}
+	.all-section .canvas {
+	    padding: 35px;
+	}
+	.all-section .canvas .canvas-caption p {
+	    padding: 0px 20px;
+	    line-height: 23px;
+	}
+	.all-section .canvas .canvas-img img {
+	    width: 100.1%;
+	}
+	.all-section .viverra-col {
+	    padding: 0px;
+	    margin: 0px;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.all-section .viverra-text {
+	    text-align: center;
+	}
+	.all-section .viverra2-text {
+	    text-align: center !important;
+	}
+	.all-section .viverra-last{
+		border-radius: 0px 0px 5px 5px;
+	}
+
+  
+}
